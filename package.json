@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox-viem": "^3.0.0",
+    "hardhat": "^2.22.18"
+  },
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "deploy": "npx hardhat ignition deploy ./ignition/modules/checker.ts --network ethereum"
+  }
+}
